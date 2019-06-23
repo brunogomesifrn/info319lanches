@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+   /* background-image: url(../_img/background.jpg); */
+}
 .icon{
     width: 90px;
     height: 50px;
@@ -17,6 +20,10 @@
 
 /*-----Corpo--------*/
 
+.corpo{
+    
+    margin-top: 40px;
+}
 
 .center img{
     display: block;
