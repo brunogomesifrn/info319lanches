@@ -16,17 +16,11 @@
 
 
 /*-----Corpo--------*/
-.Linhaitens{
-    margin-top: 30px;
-    width: 318px;
-    height: 376px;
-   margin-left: 40px;
-}
-.intens{
+
+
+.center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
     
-}
-.itens img{
-    width: 145px;
-    height: 145px;
-    margin-top: 60px;
 }
