@@ -10,3 +10,23 @@
     height: 400px;
         
 }
+.login{
+    float: right;
+}
+
+
+/*-----Corpo--------*/
+.Linhaitens{
+    margin-top: 30px;
+    width: 318px;
+    height: 376px;
+   margin-left: 40px;
+}
+.intens{
+    
+}
+.itens img{
+    width: 145px;
+    height: 145px;
+    margin-top: 60px;
+}
