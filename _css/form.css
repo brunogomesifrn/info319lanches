@@ -1,0 +1,19 @@
+*{
+    
+}
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tag{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+button{
+    margin-top: 3%;
+    margin-bottom: 5%    
+}
+form{
+    margin-top: 5%;
+}
