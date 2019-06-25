@@ -75,3 +75,6 @@ footer h4::after{
     width: 170px;
     margin: 20px auto 5px;
 }
+footer a{
+    color: white;
+}
