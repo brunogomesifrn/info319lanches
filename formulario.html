@@ -3,6 +3,7 @@
 <head>
 	<title>Formulario</title>
 
+  
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,48 +11,58 @@
 </head>
 
 <body>
-
+<div class="container">
 <form>
-	 <div class="form-group">
+  
+  <div class="form-row">
+	 <div class="form-group col-md-6" >
     <label for="exampleInputEmail1">Nome</label>
     <input type="text" class="form-control" id="exampleInputnome" aria-describedby="nomelHelp" placeholder="Nome">
    
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="exampleInputEmail1">Email </label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="exampleInputPassword1">Senha</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Idade:</label>
-    <input type="number" class="form-control" id="exampleInputidade" aria-describedby="idadeHelp" placeholder="Idade">
-  </div>
-   <div class="form-group">
-    <label for="exampleInputEmail1">CPF:</label>
-    <input type="number" class="form-control" id="exampleInputcpf" aria-describedby="cpfHelp" placeholder="CPF">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Telefone:</label>
-    <input type="number" class="form-control" id="exampleInputcpf" aria-describedby="telefoneHelp" placeholder="Telefone">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Endereço:</label>
-    <input type="number" class="form-control" id="exampleInputendereço" aria-describedby="endereçoHelp" placeholder="Endereço">
-  </div>
-  
+
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Vizualizar a Senha</label>
   </div>
+ </div>
+  
+
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="exampleInputEmail1">Idade:</label>
+    <input type="number" class="form-control" id="exampleInputidade" aria-describedby="idadeHelp" placeholder="Idade">
+    </div>
+  <div class="form-group col-md-6">
+    <label for="exampleInputEmail1">CPF:</label>
+    <input type="number" class="form-control" id="exampleInputcpf" aria-describedby="cpfHelp" placeholder="CPF">
+    </div>
+  <div class="form-group col-md-6">
+    <label for="exampleInputEmail1">Telefone:</label>
+    <input type="number" class="form-control" id="exampleInputcpf" aria-describedby="telefoneHelp" placeholder="Telefone">
+    </div>
+  <div class="form-group col-md-6">
+    <label for="exampleInputEmail1">Endereço:</label>
+    <input type="number" class="form-control" id="exampleInputendereço" aria-describedby="endereçoHelp" placeholder="Endereço">
+  </div>
+  </div>
+
+  
+ 
+ 
 
 
 
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
-
+</div>
 
 
 

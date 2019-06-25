@@ -32,6 +32,9 @@ body{
     color: black;
     text-decoration: none;
 }
+.center:hover{
+    box-shadow: 2px 2px 2px 2px ;
+}
 
 .center img{
     display: block;
