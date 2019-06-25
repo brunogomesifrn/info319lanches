@@ -47,16 +47,16 @@
     <!---------------------------------------------------------------->
     <div class="container">
        <div class="row"> 
-            <div class="col-12 col-sm-12 col-md-7"><img src="_img/tasty_new.png"></div>
+            <div class="col-12 col-sm-12 col-md-7 borda"><img src="_img/tasty_new.png"></div>
             <div class="col-12 col-sm-12 col-md-5">
                 <div class="container info">
                     <h3>BIG TASTY</h3>
                     <p>Hambúrguer de carne 100% bovina, 3 fatias de queijo, tomate, alface crocante, cebola e o saboroso molho tasty.</p>
                     <h2>R$ 15,99</h2>
                     <form>
-                        <div class="form-group ">
-                        <label for="quantidade">Quantidade:</label>
-                        <p>Quantidade:</p>    <select class="form-control" id="quantidade">
+                        <div class="form-group form-row">
+                        <label class="col-" for="quantidade">Quantidade:</label>
+                        <select class="form-control col-md-2" id="quantidade">
                           <option>1</option>
                           <option>2</option>
                           <option>3</option>
@@ -65,8 +65,49 @@
                         </select>
                       </div>
                     </form>
+                        <button type="button" class="btn btn-success">Comprar</button>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <table class="table table-striped table-hover">
+              <thead>
+                <tr>
+                  <th scope="col" colspan="4" class="text-center"><h4>Informações</h4></th>
+                  
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Calorias</th>
+                  <td>837 KCAL</td>
+                  <td>42%</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">Carboidratos</th>
+                  <td>41 G</td>
+                  <td>14%</td>
+                  
+                </tr>
+                <tr>
+                  <th scope="row">Sodio</th>
+                  <td>1345 MG</td>
+                  <td>43%</td>
+                </tr>
+                  <tr>
+                  <th scope="row">Proteínas</th>
+                  <td>41 G</td>
+                  <td>54%</td>
+                </tr>
+                  <tr>
+                  <th scope="row">Lipídios</th>
+                  <td>57 G/td>
+                  <td>103%</td>
+                </tr>
+              </tbody>
+            </table>
         </div>
     </div>
     
